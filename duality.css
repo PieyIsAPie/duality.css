@@ -239,3 +239,22 @@ html {
     background-color: #740505;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
+
+/* Typography because we can */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+  
+p {
+    margin: 10px 0;
+}
+  
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
