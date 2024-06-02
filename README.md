@@ -20,7 +20,7 @@ Input boxes use the `input-dark` or `input-light` tag depending on the theme. De
 
 ## Buttons
 
-Designed for the button tag, the `button-dark` and `button-light` classes are... specifically for this. Obviously. Use `button-dark` and `button-light` for the themes you are using respectively.
+Designed for the button tag, the `button-dark` and `button-light` classes are... specifically for this. Obviously. Use `button-dark` and `button-light` for the themes you are using respectively. There is also `button-red`, `button-green` and `button-blue`.
 
 ## Body
 
