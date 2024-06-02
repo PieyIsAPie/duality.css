@@ -1,31 +1,34 @@
 /* CSS */
-.button-dark {
-  appearance: none;
-  background-color: #2c2c2c;
-  border: 1px solid rgb(51, 51, 51);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  padding: 7px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  white-space: nowrap;
+.button-base {
+    appearance: none;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 7px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
 }
 
-.button-dark:focus:not(:focus-visible):not(.focus-visible) {
-  box-shadow: none;
-  outline: none;
+.button-base:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+  
+.button-dark {
+    background-color: #2c2c2c;
+    border: 1px solid rgb(51, 51, 51);
+    color: white;
 }
 
 .button-dark:hover {
@@ -51,27 +54,9 @@
 
 /* CSS */
 .button-light {
-    appearance: none;
     background-color: #d6d6d6;
     border: 1px solid rgba(27, 31, 35, .15);
-    border-radius: 6px;
-    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-    box-sizing: border-box;
     color: #000000;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    padding: 7px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-    white-space: nowrap;
 }
   
 .button-light:focus:not(:focus-visible):not(.focus-visible) {
@@ -91,7 +76,7 @@
 .button-light:disabled {
     background-color: #949494;
     border-color: rgba(27, 31, 35, .1);
-    color: rgba(255, 255, 255, .8);
+    color: white;
     cursor: default;
 }
   
@@ -161,27 +146,9 @@ html {
 }
 
 .button-blue {
-    appearance: none;
     background-color: #0d42b6;
     border: 1px solid rgb(13, 2, 80);
-    border-radius: 6px;
-    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    padding: 7px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-    white-space: nowrap;
+    color: white;
 }
   
 .button-blue:focus:not(:focus-visible):not(.focus-visible) {
@@ -201,7 +168,7 @@ html {
 .button-blue:disabled {
     background-color: #000000;
     border-color: rgba(27, 31, 35, .1);
-    color: rgba(255, 255, 255, .8);
+    color: white;
     cursor: default;
 }
   
@@ -211,27 +178,10 @@ html {
 }
   
 .button-green {
-      appearance: none;
+      
       background-color: #0bc50b;
       border: 1px solid rgba(27, 31, 35, .15);
-      border-radius: 6px;
-      box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-      box-sizing: border-box;
       color: white;
-      cursor: pointer;
-      display: inline-block;
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 20px;
-      padding: 7px;
-      position: relative;
-      text-align: center;
-      text-decoration: none;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      vertical-align: middle;
-      white-space: nowrap;
 }
     
 .button-green:focus:not(:focus-visible):not(.focus-visible) {
@@ -261,27 +211,9 @@ html {
 }
 
 .button-red {
-    appearance: none;
     background-color: #af0808;
     border: 1px solid rgba(27, 31, 35, .15);
-    border-radius: 6px;
-    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-    box-sizing: border-box;
     color: white;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    padding: 7px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-    white-space: nowrap;
 }
   
 .button-red:focus:not(:focus-visible):not(.focus-visible) {
