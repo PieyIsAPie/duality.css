@@ -163,7 +163,7 @@ html {
 .button-blue {
     appearance: none;
     background-color: #0d42b6;
-    border: 1px solid rgb(51, 51, 51);
+    border: 1px solid rgb(13, 2, 80);
     border-radius: 6px;
     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
     box-sizing: border-box;
@@ -194,7 +194,7 @@ html {
 }
   
 .button-blue:focus {
-    box-shadow: #353535(34, 34, 34) 0 0 0 3px;
+    box-shadow: #000ba8(34, 34, 34) 0 0 0 3px;
     outline: none;
 }
   
