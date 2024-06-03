@@ -258,3 +258,23 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.label-boxbase {
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 1px;
+    font-size: 14px;
+}
+
+.label-darkbox {
+    background-color: #202020;
+    color: white;
+    border: 1px solid #272727;
+}
+
+.label-lightbox {
+    background-color: #e4e4e4;
+    color: black;
+    border: 1px solid #c0c0c0;
+}
