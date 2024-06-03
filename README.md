@@ -20,7 +20,7 @@ Input boxes use the `input-light` or `input-dark` tag depending on the theme. De
 
 ## Buttons
 
-Designed for the button tag, the `button-light` and `button-dark` classes are... specifically for this. Obviously. Use `button-light` and `button-dark` for the themes you are using respectively. There is also `button-red`, `button-green` and `button-blue`. (Requires the `button-base` class)
+Designed for the button tag, the `button-light` and `button-dark` classes are one of a few buttons. Obviously. Use `button-light` and `button-dark` for the themes you are using respectively. There is also `button-red`, `button-green`, `button-blue`, `button-light2` and `button-dark2`. (Requires the `button-base` class)
 
 ## Body
 
@@ -30,4 +30,4 @@ Designed for the button tag, the `button-light` and `button-dark` classes are...
 
 `label-lightbox` and `label-darkbox` will add boxes for light and dark theme respectively. (Requires `label-boxbase`)
 
-**Enjoy the theme! If you want an example, look at** `test.html` **and** `testlight.html` **for an example.**
+**Enjoy the theme! If you want an example, look at** [test.html](https://www.piey.ca/duality.css/test.html)  **and** [testlight.html](https://www.piey.ca/duality.css/testlight.html) **for an example.**

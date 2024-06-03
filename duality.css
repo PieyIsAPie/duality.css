@@ -2,7 +2,7 @@
 .button-base {
     appearance: none;
     border-radius: 6px;
-    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-shadow: none;
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
@@ -21,7 +21,6 @@
 }
 
 .button-base:focus:not(:focus-visible):not(.focus-visible) {
-    box-shadow: none;
     outline: none;
 }
 
@@ -41,7 +40,6 @@
 }
 
 .button-dark:focus {
-    box-shadow: #353535(34, 34, 34) 0 0 0 3px;
     outline: none;
 }
 
@@ -54,10 +52,8 @@
 
 .button-dark:active {
   background-color: #575757;
-  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
-/* CSS */
 .button-light {
     background-color: #d6d6d6;
     border: 1px solid rgba(27, 31, 35, .15);
@@ -70,7 +66,6 @@
 }
   
 .button-light:focus {
-    box-shadow: #525252(34, 34, 34) 0 0 0 3px;
     outline: none;
 }
   
@@ -83,7 +78,6 @@
   
 .button-light:active {
     background-color: #a0a0a0;
-    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
 .body-dark {
@@ -117,7 +111,7 @@
 }
 
 html {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Cantarell;
 }
 
 .input-dark {
@@ -158,7 +152,6 @@ html {
 }
   
 .button-blue:focus {
-    box-shadow: #000ba8(34, 34, 34) 0 0 0 3px;
     outline: none;
 }
   
@@ -171,7 +164,6 @@ html {
   
 .button-blue:active {
     background-color: #082b77;
-    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
   
 .button-green {
@@ -180,18 +172,12 @@ html {
     color: white;
 }
     
-.button-green:focus:not(:focus-visible):not(.focus-visible) {
-    box-shadow: none;
-    outline: none;
-}
-    
 .button-green:hover {
     background-color: #098b09;
     border: 2px solid rgba(27, 31, 35, .15);
 }
     
 .button-green:focus {
-    box-shadow: #013a12(34, 34, 34) 0 0 0 3px;
     outline: none;
 }
     
@@ -204,7 +190,6 @@ html {
     
 .button-green:active {
     background-color: #096b09;
-    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
 .button-red {
@@ -213,18 +198,12 @@ html {
     color: white;
 }
   
-.button-red:focus:not(:focus-visible):not(.focus-visible) {
-    box-shadow: none;
-    outline: none;
-}
-  
 .button-red:hover {
     background-color: #810707;
     border: 2px solid rgba(27, 31, 35, .15);
 }
   
 .button-red:focus {
-    box-shadow: #013a12(34, 34, 34) 0 0 0 3px;
     outline: none;
 }
   
@@ -237,7 +216,6 @@ html {
   
 .button-red:active {
     background-color: #740505;
-    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
 /* Typography because we can */
@@ -277,4 +255,56 @@ a:hover {
     background-color: #e4e4e4;
     color: black;
     border: 1px solid #c0c0c0;
+}
+
+.button-dark2 {
+    background-color: #222222;
+    border: 1px solid rgb(51, 51, 51);
+    color: white;
+}
+
+.button-dark2:hover {
+  background-color: #353535;
+  border: 2px solid rgb(51, 51, 51);
+}
+
+.button-dark2:focus {
+    outline: none;
+}
+
+.button-dark2:disabled {
+    background-color: #000000;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-dark2:active {
+  background-color: #504f4f;
+}
+
+.button-light2 {
+    background-color: #f1f1f1;
+    border: 1px solid rgba(27, 31, 35, .15);
+    color: #000000;
+}
+  
+.button-light2:hover {
+    background-color: #acacac;
+    border: 2px solid rgba(27, 31, 35, .15);
+}
+  
+.button-light2:focus {
+    outline: none;
+}
+  
+.button-light2:disabled {
+    background-color: #9b9b9b;
+    border-color: rgba(27, 31, 35, .1);
+    color: black;
+    cursor: default;
+}
+  
+.button-light2:active {
+    background-color: #757575;
 }
