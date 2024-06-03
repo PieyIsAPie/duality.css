@@ -4,7 +4,7 @@ duality.css is an Adwaita/GTK style CSS theme with light and dark theme.
 
 ## Add to your site
 
-Download `duality.css`, put it in your website directory and add `<link rel="stylesheet" href="duality.css">` to your HTML file.
+Download `duality.css`, put it in your website directory and add `<link rel="stylesheet" href="https://www.piey.ca/duality.css/duality.css">` to your HTML file.
 
 ## Images
 
