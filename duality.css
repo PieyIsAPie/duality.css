@@ -285,13 +285,13 @@ a:hover {
 
 .button-light2 {
     background-color: #f1f1f1;
-    border: 1px solid rgba(27, 31, 35, .15);
+    border: 1px solid rgb(150, 150, 150);
     color: #000000;
 }
   
 .button-light2:hover {
     background-color: #acacac;
-    border: 2px solid rgba(27, 31, 35, .15);
+    border: 2px solid rgb(150, 150, 150);
 }
   
 .button-light2:focus {
@@ -300,7 +300,7 @@ a:hover {
   
 .button-light2:disabled {
     background-color: #9b9b9b;
-    border-color: rgba(27, 31, 35, .1);
+    border-color: rgba(46, 49, 53, 0.1);
     color: black;
     cursor: default;
 }
