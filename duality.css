@@ -231,6 +231,7 @@ p {
 a {
     color: #0066cc;
     text-decoration: none;
+    font-weight: bold;
 }
   
 a:hover {
@@ -248,7 +249,7 @@ a:hover {
 .label-darkbox {
     background-color: #202020;
     color: white;
-    border: 1px solid #272727;
+    border: 1px solid #4b4b4b;
 }
 
 .label-lightbox {
@@ -307,4 +308,8 @@ a:hover {
   
 .button-light2:active {
     background-color: #757575;
+}
+
+.info-box-wrapper {
+    display: flex;
 }

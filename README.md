@@ -12,7 +12,7 @@ Images use the `img-light` or `img-dark` class. `img-light` is for light theme a
 
 ## Info boxes
 
-A small class for the `div` tag that creates a small little info box. Use `info-box-light` and `info-box-dark` respectively.
+A small class for the `div` tag that creates a small little info box. Use `info-box-light` and `info-box-dark` respectively. (If you want two of them to be side by side put them in a `div` tag with the `info-box-wrapper` class)
 
 ## Input boxes
 
